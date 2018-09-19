@@ -1,6 +1,6 @@
 let books = []; //will keep track of all our books. A book will be an object that has a id,title,and author property.
 
-let id = 0; //after a creation of a book we will increment this by to ensure no books share the same id
+let id = 0; //after a creation of a book we will increment this by 1 to ensure no books share the same id
 
 module.exports = {
     read:(req,res)=>{
